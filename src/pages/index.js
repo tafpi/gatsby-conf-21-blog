@@ -1,29 +1,35 @@
-import * as React from "react"
-import {Link} from "gatsby"
+import React from "react"
+// import {Link} from "gatsby"
+import Layout from "../components/layout"
+import {StaticImage} from "gatsby-plugin-image"
 
 // markup
 const IndexPage = () => {
-  return (
-    <main >
-      <title>Home Page</title>
-      <h1 >
-        Congratulations
-        <br />
-        <span >— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
+    return (
+        <Layout>
+
+            <title>Home Page</title>
+            <h1>
+                Congratulations
+                <br/>
+                <span>— you just made a Gatsby site! </span>
+
+                <span role="img" aria-label="Party popper emojis">
           🎉🎉🎉
         </span>
-      </h1>
-      <p >
-        Edit <code >src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
+            </h1>
+            <p>
+                Edit <code>src/pages/index.js</code> to see this page
+                update in real-time.{" "}
+                <span role="img" aria-label="Sunglasses smiley emoji">
           😎
         </span>
-      </p>
-        <Link to="/about">About Page</Link>
-    </main>
-  )
+            </p>
+
+        <StaticImage src="https://www.placecage.com/1000/600"></StaticImage>
+
+        </Layout>
+    )
 }
 
 export default IndexPage

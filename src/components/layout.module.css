@@ -1,0 +1,22 @@
+main{
+    /*max-width: 600px;*/
+    margin: 0 auto;
+}
+.headerNav{
+    text-align: center;
+    background: rebeccapurple;
+    color: #ffffff;
+}
+.navBar {
+    padding: 1em;
+}
+.navBar li {
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    margin: 0 1em;
+}
+
+.navBar li a{
+    color: #ffffff;
+}
