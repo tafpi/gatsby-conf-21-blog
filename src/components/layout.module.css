@@ -1,14 +1,15 @@
 main{
-    /*max-width: 600px;*/
+    max-width: 600px;
     margin: 0 auto;
 }
 .headerNav{
     text-align: center;
     background: rebeccapurple;
     color: #ffffff;
+    padding: 1em;
 }
 .navBar {
-    padding: 1em;
+    padding: 0;
 }
 .navBar li {
     display: inline-block;

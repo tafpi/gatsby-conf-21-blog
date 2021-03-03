@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Conf 21 Blog",
+    title: "Tafpi Blog",
   },
   plugins: [
       "gatsby-plugin-image",
     "gatsby-plugin-sharp",
-    // "gatsby-source-filesystem",
+    "gatsby-source-filesystem",
     // "gatsby-transformer-sharp"
 
   ],

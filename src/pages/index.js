@@ -15,18 +15,18 @@ const IndexPage = () => {
                 <span>— you just made a Gatsby site! </span>
 
                 <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+                  🎉🎉🎉
+                </span>
             </h1>
             <p>
                 Edit <code>src/pages/index.js</code> to see this page
                 update in real-time.{" "}
                 <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
+                  😎
+                </span>
             </p>
 
-        <StaticImage src="https://www.placecage.com/1000/600"></StaticImage>
+            <StaticImage src="https://placekitten.com/g/600/300" alt="cats rule"></StaticImage>
 
         </Layout>
     )
