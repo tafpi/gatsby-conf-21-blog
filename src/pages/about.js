@@ -4,11 +4,11 @@ import Layout from "../components/layout"
 // markup
 const AboutPage = () => {
     return (
-        <Layout pageTitle="About Page">
+        <Layout pageTitle={"About Page"}>
             <title>About Page</title>
-            <h1>
+            <h2>
                 About this website
-            </h1>
+            </h2>
             <p>
                 This is a website built for checking out <img
                 alt="Gatsby G Logo"

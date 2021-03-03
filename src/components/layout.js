@@ -2,7 +2,7 @@ import React from 'react'
 import {graphql, Link, useStaticQuery} from "gatsby";
 import {headerNav, navBar} from './layout.module.css';
 
-const Layout = ({children}) => {
+const Layout = ({children, pageTitle}) => {
 
     const data = useStaticQuery(graphql`
         query myQuery {
@@ -25,9 +25,13 @@ const Layout = ({children}) => {
                 <li>
                     <Link to="/about">About</Link>
                 </li>
+                <li>
+                    <Link to="/blog">Blog</Link>
+                </li>
             </ul>
         </div>
         <main>
+            <h3>{pageTitle}</h3>
             {children}
         </main>
     </>
